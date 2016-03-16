@@ -4,5 +4,6 @@
 def func(*args):
     print(args)
     print(2)
-    
+    print(3)   
+ 
 print("Hello World!")
