@@ -8,6 +8,6 @@ class TestHello(unittest.TestCase):
         self.assertEqual(hello(1), "Hello World!")
     def test_multi(self):
         hi = hello(10)
-        self.assertEqual(len(hi) == 10)
+        self.assertEqual(len(hi), 10)
         for h in hi:
             self.assertEqual(h, "Hello World!")
