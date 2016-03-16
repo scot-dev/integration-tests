@@ -10,11 +10,8 @@ virtualenv:
   
 env:
   matrix:
-    # Python 2
-    - DISTRIB="conda" PYTHON_VERSION="2.7" COVERAGE="false"
-
-    # Python 3
-    - DISTRIB="conda" PYTHON_VERSION="3.5" COVERAGE="true"
+    - COVERAGE="false"
+    - COVERAGE="true"
       
 install:
   source distributions/ci/install.sh
