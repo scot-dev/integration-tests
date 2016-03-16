@@ -3,5 +3,6 @@
 
 def func(*args):
     print(args)
+    print(2)
     
 print("Hello World!")
