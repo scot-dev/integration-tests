@@ -13,7 +13,7 @@ echo "============================"
 echo "============================"
 
 if [[ "$COVERAGE" == "true" ]]; then
-    nosetests -v --with-coverage sources
+    PYTHONPATH=. nosetests -v --with-coverage sources
 else
-    nosetests -v sources
+    PYTHONPATH=. nosetests -v sources
 fi
