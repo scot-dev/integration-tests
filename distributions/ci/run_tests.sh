@@ -13,7 +13,7 @@ echo "============================"
 echo "============================"
 
 if [[ "$COVERAGE" == "true" ]]; then
-    nosetests -v --with-coverage scot
+    nosetests -v --with-coverage sources
 else
     nosetests -v
 fi
