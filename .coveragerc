@@ -1,4 +1,0 @@
-[run]
-branch = True
-source = sources
-include = */sources/*
