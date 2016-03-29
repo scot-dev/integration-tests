@@ -4,4 +4,6 @@ def hello(count):
     s = "Hello World!"
     if count == 1:
         return s
-    return [s] * count
+    result = [s] * count
+    result = tuple(result)
+    return result
